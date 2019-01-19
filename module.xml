@@ -1,0 +1,38 @@
+<module>
+    <rawname>pinuser</rawname>
+    <repo>unsupported</repo>
+    <name>PIN User</name>
+    <version>14.0.1</version>
+    <category>Settings</category>
+    <Publisher>mrpbueno</Publisher>
+    <info>https://github.com/mrpbueno/pinuser</info>
+    <license>GPLv3+</license>
+    <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <menuitems>
+        <pinuser>PIN User</pinuser>
+    </menuitems>
+    <depends>
+        <version>14.0.1</version>
+    </depends>
+    <requirements>
+        <module>pinsets</module>
+    </requirements>
+    <supported>14.0.0</supported>
+    <database>
+        <table name="pinuser">
+            <field name="id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="pin" type="string" length="9" notnull="true"/>
+            <field name="user" type="string" length="50" notnull="true"/>
+            <field name="department" type="string" length="50" notnull="true"/>
+            <field name="enabled" type="boolean" notnull="true"/>
+            <key name="pin" type="unique">
+                <column name="pin"/>
+            </key>
+        </table>
+    </database>
+    <updateurl>https://raw.githubusercontent.com/mrpbueno/pinuser/master/pinuser.json</updateurl>
+    <description>PIN number of user.</description>
+    <changelog>
+        *14.0.1* Initial Dev Release
+    </changelog>
+</module>

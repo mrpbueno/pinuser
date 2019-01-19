@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-12-31 12:10-0200\n"
+"PO-Revision-Date: 2018-12-31 12:30-0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Pinuser.class.php:68
+msgid "Delete"
+msgstr "Excluir"
+
+#: Pinuser.class.php:69
+msgid "Reset"
+msgstr "Redefinir"
+
+#: Pinuser.class.php:70
+msgid "Submit"
+msgstr "Enviar"
+
+#: Pinuser.class.php:103
+msgid "Invalid Request"
+msgstr "Pedido inválido"
+
+#: Pinuser.class.php:151
+msgid "Error! Duplicate pin."
+msgstr "Erro! PIN duplicado."
+
+#: views/pinuser/default.php:2 views/pinuser/rnav.php:3
+msgid "PIN User"
+msgstr "Usuário PIN"
+
+#: views/pinuser/form.php:1
+msgid "Edit PIN User"
+msgstr "Editar Usuário PIN"
+
+#: views/pinuser/form.php:1
+msgid "New PIN User"
+msgstr "Novo usuário PIN"
+
+#: views/pinuser/form.php:12 views/pinuser/grid.php:26
+msgid "PIN"
+msgstr "PIN"
+
+#: views/pinuser/form.php:24
+msgid "PIN number of user"
+msgstr "Número de PIN do Usuário"
+
+#: views/pinuser/form.php:36 views/pinuser/grid.php:27
+msgid "Name"
+msgstr "Nome"
+
+#: views/pinuser/form.php:48
+msgid "Enter Name"
+msgstr "Insira o nome"
+
+#: views/pinuser/form.php:60 views/pinuser/grid.php:28
+msgid "Department"
+msgstr "Departamento"
+
+#: views/pinuser/form.php:72
+msgid "Enter department"
+msgstr "Insira o departamento/setor"
+
+#: views/pinuser/form.php:84
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: views/pinuser/form.php:89
+msgid "Yes"
+msgstr "Sim"
+
+#: views/pinuser/form.php:89
+msgid "No"
+msgstr "Não"
+
+#: views/pinuser/form.php:98
+msgid "Enable or disable PIN User."
+msgstr "Habilitar ou desabilitar o Usuário PIN."
+
+#: views/pinuser/form.php:110
+msgid "Pinset"
+msgstr "Conjunto de PINs"
+
+#: views/pinuser/form.php:128
+msgid "Pinset of user."
+msgstr "Conjunto de PINs do Usuário."
+
+#: views/pinuser/grid.php:7 views/pinuser/rnav.php:4
+msgid "Sync PIN"
+msgstr "Sincronizar PINs"
+
+#: views/pinuser/grid.php:29
+msgid "Actions"
+msgstr "Ações"
+
+#: views/pinuser/grid.php:38
+msgid "Wait!"
+msgstr "Aguarde!"
+
+#: views/pinuser/grid.php:41
+msgid "Syncing ..."
+msgstr "Sincronizando ..."
+
+#: views/pinuser/rnav.php:2
+msgid "Menu"
+msgstr "Menu"
